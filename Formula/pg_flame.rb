@@ -3,7 +3,6 @@ class PgFlame < Formula
   desc "A flamegraph generator for Postgres EXPLAIN ANALYZE output."
   homepage "https://github.com/mgartner/pg_flame"
   version "1.2"
-  bottle :unneeded
 
   if OS.mac?
     url "https://github.com/mgartner/pg_flame/releases/download/v1.2/pg_flame_1.2_Darwin_x86_64.tar.gz"
